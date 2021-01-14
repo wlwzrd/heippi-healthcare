@@ -7,3 +7,4 @@ class Config(object):
     CSRF_ENABLED = True
     SECRET_KEY = 'f3cfe9ed8fae309f02079dbf'
     SQLALCHEMY_DATABASE_URI = 'postgresql:///healthcare'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
